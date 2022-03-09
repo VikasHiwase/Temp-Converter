@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #37313d;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: gold;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px grey;
+    border-radius: 20px;
+}
+
+#tempCalc label{
+    font-size: 30px;
+}
+
+#temp{
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temp-diff{
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#resultContainer{
+    font-size: 35px;
+}
+
+
